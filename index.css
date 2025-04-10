@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Бизнес Стратегия</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Навигация -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #3f51b5;">
+    <div class="container">
+      <a class="navbar-brand" href="#">Стратегия за Бизнес</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#home">Начало</a></li>
+          <li class="nav-item"><a class="nav-link" href="#steps">Стъпки</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Контакт</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Хедър секция -->
+  <section id="home" class="text-center text-white py-5" style="background: linear-gradient(135deg, #3f51b5, #673ab7);">
+    <div class="container">
+      <h1 class="display-4">Как да създадем стратегия за бизнес</h1>
+      <p class="lead mt-3">Ръководство за успех стъпка по стъпка</p>
+      <a href="#steps" class="btn btn-light mt-4">Започни сега</a>
+    </div>
+  </section>
+
+  <!-- Стъпки -->
+  <section id="steps" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5" style="color: #3f51b5;">Три основни стъпки</h2>
+      <div class="row g-4">
+        <div class="col-md-4 text-center">
+          <div class="card shadow-sm h-100">
+            <div class="card-body">
+              <h5 class="card-title text-primary">1. Анализирай пазара</h5>
+              <p class="card-text">Разбери конкуренцията, клиентите и тенденциите, които ще влияят на твоя бизнес.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="card shadow-sm h-100">
+            <div class="card-body">
+              <h5 class="card-title text-primary">2. Определи целите</h5>
+              <p class="card-text">Създай ясни, измерими цели – приходи, растеж, клиентска база и т.н.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="card shadow-sm h-100">
+            <div class="card-body">
+              <h5 class="card-title text-primary">3. Изгради план за действие</h5>
+              <p class="card-text">Дефинирай конкретни стъпки, ресурси и отговорности, нужни за постигане на целите.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Призив за действие -->
+  <section class="text-center py-5" style="background-color: #ede7f6;">
+    <div class="container">
+      <h3 class="mb-4">Готов ли си да развиеш своя бизнес?</h3>
+      <a href="#contact" class="btn btn-primary btn-lg">Свържи се с нас</a>
+    </div>
+  </section>
+
+  <!-- Контакт -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2 style="color: #673ab7;">Контакт</h2>
+      <p class="mt-3">Имаш въпроси? Пиши ни на: <a href="mailto:example@business.bg">example@business.bg</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-white py-3" style="background-color: #3f51b5;">
+    © 2025 Бизнес Стратегия
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
